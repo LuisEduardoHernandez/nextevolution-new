@@ -1,0 +1,86 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .pleca {
+    cursor: pointer;
+    background-color: #676769;
+    border-radius: 13px;
+    flex-shrink: 0;
+    align-self: stretch;
+    height: 230px;
+    transition: all 0.3s;
+    display: flex;
+    width: 100%;
+  }
+  
+  .efecto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px #0000001a;
+  }
+  
+  .ttulodelartculo {
+    color: #000;
+    margin-top: 26px;
+    font-family: 'Creato Display', -apple-system, Roboto, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  
+  .fechaarticulo {
+    color: #9c9a9a;
+    letter-spacing: 4.23px;
+    text-transform: uppercase;
+    margin-top: 7px;
+    font-family: Inter, -apple-system, Roboto, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  /* TABLETS */
+  @media (max-width: 991px) {
+    .contenedor {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .pleca {
+      height: 180px;
+    }
+  
+    .ttulodelartculo {
+      font-size: 22px;
+    }
+  
+    .fechaarticulo {
+      font-size: 13px;
+    }
+  }
+  
+  /* MÓVILES */
+  @media (max-width: 640px) {
+    .pleca {
+      height: 200px;
+    }
+    .pt-10 {
+        padding-top: 5rem
+    
+    ;
+    }
+  
+    .ttulodelartculo {
+      font-size: 20px;
+      margin-top: 20px;
+    }
+  
+    .fechaarticulo {
+      font-size: 12px;
+      letter-spacing: 3px;
+    }
+  }
+
+  

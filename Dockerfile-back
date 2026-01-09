@@ -1,0 +1,28 @@
+# ---------- BUILD ----------
+FROM node:20.18.1-alpine AS build
+WORKDIR /app
+COPY package.json yarn.lock ./
+RUN yarn install --frozen-lockfile --network-timeout 1000000
+COPY . .
+RUN yarn build
+
+
+# ---------- PRODUCTION ----------
+FROM php:8.3-apache AS production
+
+RUN a2enmod rewrite
+
+# Apache config
+COPY apache.conf /etc/apache2/sites-available/000-default.conf
+
+# React build
+COPY --from=build /app/build /var/www/html/
+
+# PHP form
+COPY src/pages/Contact/*.php /var/www/html/
+
+RUN chown -R www-data:www-data /var/www/html \
+ && chmod -R 755 /var/www/html
+
+EXPOSE 80
+CMD ["apache2-foreground"]

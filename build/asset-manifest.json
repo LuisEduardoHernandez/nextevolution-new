@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d2da2e20.css",
+    "main.js": "/static/js/main.d82b94ab.js",
+    "static/media/mapa.png": "/static/media/mapa.19c20c2602173adb7d65.png",
+    "static/media/intro_next.mp4": "/static/media/intro_next.6a2f2f6db1a4b26a9b97.mp4",
+    "static/media/next_video_new.mp4": "/static/media/next_video_new.4d7384af609b7358987a.mp4",
+    "static/media/Literata-Variable.ttf": "/static/media/Literata-Variable.e65e75df04f03038b940.ttf",
+    "static/media/Literata-Italic.ttf": "/static/media/Literata-Italic.1294ba5fe4da55d08142.ttf",
+    "static/media/next_evolution_video.mp4": "/static/media/next_evolution_video.a0a5cb3fad71b2ecaf21.mp4",
+    "static/media/Agador1.png": "/static/media/Agador1.7d6bc50fe83866de0586.png",
+    "static/media/ISACA.png": "/static/media/ISACA.3304675ad796cf4c9927.png",
+    "static/media/service5.png": "/static/media/service5.8396c2254935ded2714c.png",
+    "static/media/Agador2.png": "/static/media/Agador2.db3ef896908f25cd2371.png",
+    "static/media/fisio.png": "/static/media/fisio.934eeb6adbb9de563db7.png",
+    "static/media/renne_image.png": "/static/media/renne_image.e78c233a1b05b6d9fce4.png",
+    "static/media/AgadorPortafolio 1.png": "/static/media/AgadorPortafolio 1.d7150df30cd444ad72dc.png",
+    "static/media/Estrategia-BES.png": "/static/media/Estrategia-BES.e81d33d65cf7c3c00557.png",
+    "static/media/next_blanco.png": "/static/media/next_blanco.9bd16edb256e0c09926b.png",
+    "static/media/CreatoDisplay-Bold.otf": "/static/media/CreatoDisplay-Bold.07b3a53b2cf3578267fe.otf",
+    "static/media/CreatoDisplay-Regular.otf": "/static/media/CreatoDisplay-Regular.6d28723c4e0b525a515f.otf",
+    "static/media/ula_logo.png": "/static/media/ula_logo.88b046ac8fdaf1636e60.png",
+    "static/media/agador_logo.png": "/static/media/agador_logo.2e60287a678324c3162c.png",
+    "static/media/instagram.svg": "/static/media/instagram.6b92d8ed893d7871cfe4479266c80a10.svg",
+    "index.html": "/index.html",
+    "main.d2da2e20.css.map": "/static/css/main.d2da2e20.css.map",
+    "main.d82b94ab.js.map": "/static/js/main.d82b94ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2da2e20.css",
+    "static/js/main.d82b94ab.js"
+  ]
+}

@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'CreatoDisplay';
+  src: url('../../public/fonts/CreatoDisplay-Regular.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CreatoDisplayBold';
+  src: url('../../public/fonts/CreatoDisplay-Bold.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LiterataItalic';
+  src: url('../../public/fonts/Literata-Italic.ttf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LiterataVariable';
+  src: url('../../public/fonts/Literata-Variable.ttf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
+
+
+h2 {
+    font-family: 'CreatoDisplay', sans-serif;
+    font-size: 2rem;
+    color: #333;
+}
+
+h3 {
+    font-family: 'CreatoDisplay', sans-serif;
+    font-size: 1rem;
+    
+}
+
+h1 {
+    font-family: 'CreatoDisplay', sans-serif;
+    font-size: 3rem;
+    color: #333;
+}
+
+.literata-italic {
+  font-family: "LiterataItalic", serif;
+  
+}
+
+.creato-display {
+  font-family: "CreatoDisplay", sans-serif;
+}
+
+.literata-variable{
+  font-family: "LiterataVariable", serif;
+}
+
+
+
+.container {
+ 
+   padding: 4rem 4rem 4rem 4rem;
+   justify-content: center;
+   text-align: center;
+}
+
+.container2 {
+ 
+  justify-content: center;
+  text-align: center;
+}
+
+hr{
+    margin: 2rem auto;              /* ← esto lo centra horizontalmente */
+    border: 1px solid #000000;
+    width: 30%;
+}
+
+.button-green{
+    background-color: #CAC57A;
+    border-radius: 10px;
+    color: #0000009a;
+    font-size: 20px;
+    padding: 0.6rem 2.5rem 0.6rem 2.5rem;
+    font-family: 'CreatoDisplay', sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* ← sombra agregada */
+    transition: box-shadow 0.3s ease;
+}
+
+.button-green:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+
+body {
+  font-family: 'CreatoDisplay', sans-serif;
+}
