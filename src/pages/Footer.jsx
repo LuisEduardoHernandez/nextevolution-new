@@ -17,9 +17,9 @@ const Footer = () => {
           alt="Company logo"
         />
 
-        {/* <button onClick={() => window.location = 'mailto:cuentas@nextevolution.com.mx'}> */}
-        <a href="mailto:cuentas@nextevolution.com.mx" >
-        <p className="mt-6 not-italic">cuentas@nextevolution.com.mx</p>
+        {/* <button onClick={() => window.location = 'mailto:no-reply@nextevolution.com.mx'}> */}
+        <a href="mailto:no-reply@nextevolution.com.mx" >
+        <p className="mt-6 not-italic">no-reply@nextevolution.com.mx</p>
         {/* </button> */}
         </a>
       </div>
