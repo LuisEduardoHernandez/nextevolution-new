@@ -16,7 +16,7 @@ const ContactSection = () => {
 
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const API_ENDPOINT = 'https://api.nextevolution.com.mx/api/contact';
+  const API_ENDPOINT = 'https://nextevolution.com.mx/api/contact';
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
